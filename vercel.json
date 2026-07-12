@@ -1,0 +1,6 @@
+{
+  "rewrites": [
+    { "source": "/mcp", "destination": "https://leog-mcp.vercel.app/mcp" },
+    { "source": "/mcp/:path*", "destination": "https://leog-mcp.vercel.app/mcp/:path*" }
+  ]
+}
